@@ -9,6 +9,7 @@ public class BallScript : MonoBehaviour {
     [SerializeField] Paddle paddle1;
     [SerializeField] float xPush = 2f;
     [SerializeField] float yPush = 2f;
+    [SerializeField] float randomMovement = 0.2f;
     bool hasStarted = false;
 
 

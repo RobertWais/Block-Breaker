@@ -152,7 +152,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 0.9490196, b: 0.83137256, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -418,9 +418,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1337478366}
   - {fileID: 1604566606}
   - {fileID: 1654591834}
-  - {fileID: 1337478366}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -457,11 +457,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 673289116}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -5.799988, y: -262.90002}
+  m_AnchoredPosition: {x: 20.25, y: -72}
   m_SizeDelta: {x: 659.9, y: 68.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1337478367
@@ -609,11 +609,11 @@ RectTransform:
   m_Children:
   - {fileID: 1456188113}
   m_Father: {fileID: 673289116}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -720, y: 66}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 66}
   m_SizeDelta: {x: 700.4, y: 271.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1604566607
@@ -774,12 +774,12 @@ RectTransform:
   m_Children:
   - {fileID: 673052717}
   m_Father: {fileID: 673289116}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -720, y: -215.65005}
-  m_SizeDelta: {x: 398.7, y: 139.3}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -215.65005}
+  m_SizeDelta: {x: 398.69995, y: 139.29999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1654591835
 MonoBehaviour:
@@ -820,7 +820,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 332695939}
         m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
