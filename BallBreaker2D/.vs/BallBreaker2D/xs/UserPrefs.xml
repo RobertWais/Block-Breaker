@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{F7DB9767-1B18-D81F-E9D1-B5EABEE4859B}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameStatus.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneLoader.cs">
     <Files>
       <File FileName="Assets/Scripts/LoseCollider.cs" Line="8" Column="5" />
       <File FileName="Assets/Scripts/Paddle.cs" Line="12" Column="23" />
-      <File FileName="Assets/Scripts/BallScript.cs" Line="15" Column="27" />
-      <File FileName="Assets/Scripts/BlockScript.cs" Line="7" Column="19" />
+      <File FileName="Assets/Scripts/BallScript.cs" Line="49" Column="42" />
+      <File FileName="Assets/Scripts/BlockScript.cs" Line="14" Column="5" />
       <File FileName="Assets/Scripts/LevelScript.cs" Line="15" Column="5" />
-      <File FileName="Assets/Scripts/SceneLoader.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameStatus.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" Line="11" Column="24" />
+      <File FileName="Assets/Scripts/GameStatus.cs" Line="17" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
